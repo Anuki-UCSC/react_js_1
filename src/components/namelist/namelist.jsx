@@ -6,10 +6,10 @@ function namelist(){
         <h1>name list</h1>
       <hr />
       <ul>
-        <li>Anuki gayara - software engineering</li>
-        <li>Sanduni Lanka - software engineering</li>
-        <li>chamodhi dewwandi - computer science</li>
-        <li>shamali pathirana - computer science</li>
+        <li>Anuki gayara - software engineering- 3rd year</li>
+        <li>Sanduni Lanka - software engineering-3rd year</li>
+        <li>chamodhi dewwandi - computer science-3rd year</li>
+        <li>shamali pathirana - computer science-3rd year</li>
       </ul>
       </React.Fragment>
     );

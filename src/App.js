@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import namelist from './components/namelist/namelist'
+
+import NameList1 from './components/namelist/NameList1';
+
 
 function App() {
   return (
     <div>
-     <namelist />
+     <h1>name list</h1>
+      <hr />
+      <NameList1/>
+      
+     
+     
      </div>
   );
 }

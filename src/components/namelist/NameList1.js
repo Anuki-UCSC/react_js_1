@@ -5,9 +5,9 @@ import NamelistDynamic from './NamelistDynamic';
 
 function NameList1()
 {
+    
     return(
         <div>
-            <NameListItem/>
     <ul>
 
         <NamelistDynamic name="ishan reshmika" degree="computer science" year="3rd year"/>
@@ -20,5 +20,6 @@ function NameList1()
         </div>
     );
 }
+
 
 export default NameList1;

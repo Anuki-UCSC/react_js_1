@@ -4,7 +4,7 @@ function NamelistDynamic2(props)
 {
     return(
       <div>
-        <p><img src={props.profile_pic}></img> {props.fullname} </p>
+        <p><img src={props.profile_pic} alt={props.fullname}/> {props.fullname} </p>
         <p>Address : {props.location}</p>
         <p>email   : {props.email} </p>
         <p>telephone :{props.tell} </p>

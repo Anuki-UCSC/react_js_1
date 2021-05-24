@@ -24,7 +24,8 @@ function NameList2()
         "picture": {
             "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",  
           },
-    };
+    } ;
+
 
 
     return(

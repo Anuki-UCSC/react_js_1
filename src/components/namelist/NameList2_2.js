@@ -67,11 +67,34 @@ const namelistComponent=()=>{
 
 };
 
+
+const addUserHandler=()=>{
+    console.log("Button clicked");
+    const newUser={
+        "name": 
+            {"title": "mr","first": "Ishan","last": "Ediriweera"},
+        "location": 
+            {"city": "mathara","postcode": "93027",},
+        "email"
+            : "brad.gibson@example.com",
+        "dob": 
+            {"date": "1944-07-20T09:44:18.674Z","age": 26},
+        "phone":
+            "011-333-3333",  
+        "picture": 
+            {"medium": "https://randomuser.me/api/portraits/med/men/75.jpg", },
+    };
+
+    setNameList((nameList)=> nameList.concat(newUser));
+};  //this function is not working  :(
+
     return(
         <div>
         <div className="container-fluid mb-8">
             <ul>
-            {namelistComponent()}
+            <button className="btn btn-primary mb-3" onclick={addUserHandler} >Add Name</button>
+            {/* addUserHandler function is not working when button clicked */}
+            {namelistComponent()}                    
             
             </ul>
         </div>

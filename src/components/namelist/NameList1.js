@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NameListItem from './NameListItem';
+// import NameListItem from './NameListItem';
 import NamelistDynamic from './NamelistDynamic';
 
 function NameList1()

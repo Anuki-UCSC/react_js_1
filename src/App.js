@@ -3,7 +3,8 @@ import './App.css';
 
 import NameList1 from './components/namelist/NameList1';
 import NameList2 from './components/namelist/NameList2';
-import NameList2_2 from './components/namelist/NameList2_2';
+// import NameList2_2 from './components/namelist/NameList2_2';
+import NameList3 from './components/namelist/NameList3';
 import HeaderBar from './components/HeaderBar/HeaderBar';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <NameList1/>
       <NameList2/>
       <hr />
-      <NameList2_2/>
+      
+      <NameList3/>
      
      
      </div>

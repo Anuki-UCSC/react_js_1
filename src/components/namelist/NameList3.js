@@ -5,7 +5,7 @@ import NamelistDynamic2 from './NamelistDynamic2';
 
 
 
-function NameList2_2()
+function NameList3()
 {
     const[namelist, setNameList]=useState([{
         "name": 
@@ -49,7 +49,8 @@ function NameList2_2()
         "picture": 
             {"medium": "https://randomuser.me/api/portraits/med/men/75.jpg", },
     }
-    ]);    
+    ]); 
+    
 
 const namelistComponent=()=>{
     return namelist.map((aName)=>{
@@ -107,4 +108,4 @@ const addUserHandler=()=>{
 }
 
 
-export default NameList2_2;
+export default NameList3;

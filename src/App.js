@@ -24,6 +24,10 @@ function App() {
         <Name_List/>
         </Route> 
 
+        <Route path="/namelistC">
+        <Home />
+        </Route> 
+
         <Route path="/">
         <Home />
         </Route> 

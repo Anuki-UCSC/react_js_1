@@ -39,4 +39,38 @@ class NameListC extends React.Component{
         };
     } 
 
+    componentDidMount(){
+        console.log("did Mount called");
+    }
+    
+
+    componentDidUpdate(){
+        console.log("did Update called");
+    }
+
+
+    addUserHandle=()=>{  // "this" key word have to be global, so applyed arrow function
+        console.log("add User Handle called");
+        // console.log(this.state.massage);
+        // this.setState({massage : "hello state changed - automatically called DidUpdate()"}) // massage won't display...but DidUpdate() called 
+    }
+
+
+    render(){
+        return (
+            <div>
+                <h1>Class component</h1>
+                <p>{this.props.msg}</p>
+                <div className="container mt-4">
+                <button className="btn btn-primary mb-2" onClick={this.addUserHandle}>
+                Add Name
+                </button>
+                <ul className="list-group">{}</ul>
+                </div>
+            </div>
+            
+        )
+    }
+
+
 }

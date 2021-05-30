@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function HeaderBar() {
     return (
@@ -7,13 +8,13 @@ function HeaderBar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ">
           <li class="nav-item active ml-5">
-            <a class="nav-link" href="#">Home </a>
+            <Link class="nav-link" to="/">Home </Link>
           </li>
           <li class="nav-item ml-5">
-            <a class="nav-link" href="#">About Us</a>
+            <Link class="nav-link" to="/about">About Us</Link>
           </li>
           <li class="nav-item ml-5">
-            <a class="nav-link" href="#">Name List</a>
+            <Link class="nav-link" to="/namelist">Name List</Link>
           </li>
         </ul>
       </div>

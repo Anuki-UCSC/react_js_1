@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import NameListItem from './NameListItem';
+import NameListItem from './NamelistDynamic2';
 
 function Name_List() 
 {

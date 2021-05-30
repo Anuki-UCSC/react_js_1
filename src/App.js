@@ -13,10 +13,8 @@ function App() {
       <h1>name list</h1>
       <hr />
       
-      <NameList1/>
-      <NameList2/>
-      <hr />
-      
+      {/* <NameList1/>
+      <NameList2/> */}
       <Name_List/>
      
      

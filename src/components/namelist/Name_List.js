@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import NameListItem from './NameListItem';
 
-function Name_List() {
+function Name_List() 
+{
   const [loadData, setLoadData] = useState(new Date());
   const [nameList, setNameList] = useState([
     {

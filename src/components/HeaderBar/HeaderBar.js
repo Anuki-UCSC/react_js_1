@@ -2,14 +2,25 @@ import React from 'react';
 
 function HeaderBar() {
     return (
-        <div class="navbar navbar-dark bg-dark">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
-        <ul>
-          <li className="nav-item"><a className="nav-link" href="#">Welcome</a></li>
-          <li className="nav-item"><a className="nav-link" href="#">About Us</a></li>
-          <li className="nav-item"><a className="nav-link" href="#">Name list</a></li>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item active ml-5">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link" href="#">Name List</a>
+          </li>
         </ul>
       </div>
+    </nav>
         );
 }
 

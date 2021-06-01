@@ -8,6 +8,7 @@ import HeaderBar from './components/HeaderBar/HeaderBar';
 import About from './components/pages/About';
 import Home from './components/pages/Home';
 import {Route, BrowserRouter, Switch} from 'react-router-dom';
+import NameListC from './components/pages/namelistC/NameListC';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         </Route> 
 
         <Route path="/namelistC">
-        <Home />
+        <NameListC />
         </Route> 
 
         <Route path="/">
